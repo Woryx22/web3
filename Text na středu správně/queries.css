@@ -1,0 +1,13 @@
+@media only screen and (max-width: 850px){
+
+    .photo-segment li {
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    .photo-segment .col{
+        margin-left: 0;
+    }
+    .photo-gallery .row{
+        width: 98%;
+    }
+}
