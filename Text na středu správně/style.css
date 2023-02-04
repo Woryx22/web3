@@ -38,6 +38,7 @@ header {
         url(../tower-gbaae85b9f_1920.jpg);
     height: 100vh;
     background-size: cover;
+    background-attachment:fixed;
 }
 
 #logo img {
@@ -164,6 +165,8 @@ header nav ul li a:active {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url(../vez5.jpg);
     background-size: cover;
+    background-attachment: fixed;
+
 
 }
 
