@@ -4,6 +4,10 @@
     .references .row {
         width: 97%;
     }
+    .references{
+        background-position: 42%;
+    }
+    
 
     /***** O nasich vezich *****/
     .our-tower.row {
@@ -19,6 +23,8 @@
     .about-us.row {
         width: 97%;
     }
+    
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -37,6 +43,7 @@
     .header-text {
         left: 30%;
     }
+    
 }
 
 @media only screen and (max-width: 850px) {
@@ -98,6 +105,7 @@
         display: block;
         text-align: center;
     }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -165,5 +173,8 @@
     header nav ul li a:link,
     header nav ul li a:visited {
         font-size: 18px;
+    }
+    .references{
+        background-position: 28%;
     }
 }
