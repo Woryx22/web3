@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** reusable *****/
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heading-main h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #88003f;
+    margin: 10px auto;
+}
+
+/**** Stop floating ****/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*****  header  ******/
+
+header {
+    background: linear-gradient(rgba(255, 121, 121, 0.7), rgba(0, 0, 0, 0.8)),
+        url(../tower-gbaae85b9f_1920.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+#logo img {
+    width: 80px;
+    position: absolute;
+    top: 2%;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav ul li a:link,
+header nav ul li a:visited {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    border-bottom: 2px solid #4b0124;
+    transition: all 0.5s;
+}
+
+.header-text {
+    position: absolute;
+    top: 40%;
+    left: 21.5%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid #4b0124;
+    border-radius: 10px;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #4b0124;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    color: #4b0124;
+    background-color: rgb(187, 187, 187);
+    border-color: rgb(187, 187, 187);
+    transition: all 0.4s
+        /* transition: background-color 4s; */
+
+}
+
+.btn-margin-left {
+    margin-left: 8px;
+}
+
+/***** About us *****/
+
+.img-in-col {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 40px #000;
+}
+
+.heading-main h2 {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***** our-tower *****/
+.tower-info div img {
+    height: 550px;
+}
+
+.tower-text {
+    margin-bottom: 65px;
+    margin-top: 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tower-text div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    text-align: center;
+    border-radius: 35%;
+    padding: 14px;
+    float: left;
+}
+
+.tower-text p {
+    margin-left: 65px;
+
+}
+
+/**** reference ****/
+.references {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../vez5.jpg);
+    background-size: cover;
+
+}
+
+.references h2 {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.references h2:after {
+    border-bottom: 2px solid #fff;
+}
+
+.one-reference {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.one-reference>p {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.photo-name {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.photo-name p {
+    padding-top: 21px;
+    margin-left: 85px;
+
+}
+
+.photo-name img {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+
+/**** Gallery ****/
+
+.photo-segment img {
+    width: 100%;
+    height: 440px;
+    opacity: 1;   /* Průhlednost */
+    transform: scale(1.15); /* Přiblížení o 0.15 */
+    border-radius: 10px;
+    transition: all 0.4s;
+    
+}
+
+.photo-segment li {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;   /* Aby přiblíženej obrázek nepřesahoval */
+    height: 440px;
+    border-radius: 10px;
+
+}
+
+/* .photo-segment img:hover{
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.4s;
+} */
