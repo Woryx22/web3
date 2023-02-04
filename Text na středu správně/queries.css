@@ -1,78 +1,169 @@
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 1150px) {
+
     /***** reference *****/
-    .references .row{
+    .references .row {
         width: 97%;
     }
+
     /***** O nasich vezich *****/
-    .our-tower.row{
+    .our-tower.row {
         width: 97%;
     }
-    /*****  *****/
-    .photo-gallery .row{
+
+    /***** gallery *****/
+    .photo-gallery .row {
+        width: 97%;
+    }
+
+    /***** Naše věže *****/
+    .about-us.row {
         width: 97%;
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1000px) {
+
     /***** reference *****/
-    .references .one-reference{
+    .references .one-reference {
         width: 49%;
-        
+
     }
-    
-    .references .one-reference:nth-child(3){
+
+    .references .one-reference:nth-child(3) {
         display: none;
     }
-    
+
+    /***** header *****/
+    .header-text {
+        left: 30%;
+    }
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 850px) {
+
     /***** Galerie *****/
     .photo-segment li {
         margin-bottom: 0.5rem;
         width: 100%;
     }
-    .photo-segment .col{
+
+    .photo-segment .col {
         margin-left: 0;
     }
-    .photo-gallery .row{
+
+    .photo-gallery .row {
         width: 80%;
     }
+
     /***** O nasich vezich *****/
-    .our-tower .span-1-of-2{
+    .our-tower .span-1-of-2 {
         width: 100%;
     }
-    .our-tower.row{
+
+    .our-tower.row {
         width: 80%;
     }
+
+    /***** Naše věže *****/
+    .about-us.row {
+        width: 80%;
+    }
+
+    .towers-example .col.span-1-of-2 {
+        width: 100%;
+    }
+
+    .towers-example .col {
+        margin-left: 0;
+    }
+
+    /***** header *****/
+    .header-text {
+        left: 0%;
+        width: 100%;
+        transform: translate(0%, 0%);
+
+    }
+
+    header {
+        background-position: 45%;
+    }
+
+    .header-text h1 {
+        text-align: center;
+    }
+
+    .btn {
+        margin: 5px 160px;
+        display: block;
+        text-align: center;
+    }
 }
-@media only screen and (max-width: 750px){
+
+@media only screen and (max-width: 750px) {
+
     /***** reference *****/
-    .references .one-reference{
+    .references .one-reference {
         width: 100%;
         margin: 1rem 0px;
     }
-    
-    .references .one-reference:nth-child(3){
-        display:block
+
+    .references .one-reference:nth-child(3) {
+        display: block
     }
-    .photo-name{
+
+    .photo-name {
         float: right;
         margin-right: 20px;
     }
+
     /***** Dotazník *****/
-    .contact-form input{
+    .contact-form input {
         width: 100%;
     }
-    .contact-form textarea{
+
+    .contact-form textarea {
         width: 100%;
     }
+
     /***** O nasich vezich *****/
-    .our-tower.row{
+    .our-tower.row {
         width: 97%;
     }
+
     /***** gallery *****/
-    .photo-gallery .row{
+    .photo-gallery .row {
         width: 97%;
+    }
+
+    /***** Naše věže *****/
+    .about-us.row {
+        width: 97%;
+    }
+
+    .towers-example .col {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /***** header *****/
+    .btn {
+        margin: 5px 80px;
+    }
+
+    .nav-bar #logo img {
+        width: 50px;
+    }
+
+    .nav-bar.row {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    header nav ul li a:link,
+    header nav ul li a:visited {
+        font-size: 18px;
     }
 }
