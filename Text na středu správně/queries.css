@@ -1,5 +1,33 @@
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 1150px){
+    /***** reference *****/
+    .references .row{
+        width: 97%;
+    }
+    /***** O nasich vezich *****/
+    .our-tower.row{
+        width: 97%;
+    }
+    /*****  *****/
+    .photo-gallery .row{
+        width: 97%;
+    }
+}
 
+@media only screen and (max-width: 1000px){
+    /***** reference *****/
+    .references .one-reference{
+        width: 49%;
+        
+    }
+    
+    .references .one-reference:nth-child(3){
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 850px){
+    /***** Galerie *****/
     .photo-segment li {
         margin-bottom: 0.5rem;
         width: 100%;
@@ -8,6 +36,43 @@
         margin-left: 0;
     }
     .photo-gallery .row{
-        width: 98%;
+        width: 80%;
+    }
+    /***** O nasich vezich *****/
+    .our-tower .span-1-of-2{
+        width: 100%;
+    }
+    .our-tower.row{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 750px){
+    /***** reference *****/
+    .references .one-reference{
+        width: 100%;
+        margin: 1rem 0px;
+    }
+    
+    .references .one-reference:nth-child(3){
+        display:block
+    }
+    .photo-name{
+        float: right;
+        margin-right: 20px;
+    }
+    /***** Dotazník *****/
+    .contact-form input{
+        width: 100%;
+    }
+    .contact-form textarea{
+        width: 100%;
+    }
+    /***** O nasich vezich *****/
+    .our-tower.row{
+        width: 97%;
+    }
+    /***** gallery *****/
+    .photo-gallery .row{
+        width: 97%;
     }
 }

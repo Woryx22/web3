@@ -38,7 +38,7 @@ header {
         url(../tower-gbaae85b9f_1920.jpg);
     height: 100vh;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
 #logo img {
@@ -166,8 +166,6 @@ header nav ul li a:active {
         url(../vez5.jpg);
     background-size: cover;
     background-attachment: fixed;
-
-
 }
 
 .references h2 {
@@ -298,7 +296,7 @@ footer {
 }
 
 .social a:link,
-.social a:visited{
+.social a:visited {
     color: #cccccc;
     text-decoration: none;
     font-size: 25px;
@@ -306,8 +304,9 @@ footer {
 
 
 }
+
 .social a:hover,
-.social a:active{
+.social a:active {
     color: #000;
     transition: color 0.2s;
 }
