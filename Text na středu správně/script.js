@@ -22,7 +22,14 @@
             $("html, body").animate({ scrollTop: $(".jq--form").offset().top }, 1000);
         });
 
+        /***** Mobile navigation *****/
+        $(".jq--nav-icon").click(function(){
 
-        
+            $(".nav-background").fadeToggle(200)
+            $(".mobile-nav-backgorund").slideToggle(200)
+            $("nav ul").fadeToggle(200)
+
+        });
+
     });
 })(jQuery);

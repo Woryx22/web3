@@ -61,7 +61,7 @@ header {
 }
 
 header nav ul {
-    float: right;
+    /* float: right; */
     margin-top: 7px;
 
     position: fixed;
@@ -136,6 +136,13 @@ header nav ul li a:active {
 
 .btn-margin-left {
     margin-left: 8px;
+}
+
+/** Mobile navigation **/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 6px;
+    display: none;
 }
 
 /***** About us *****/
