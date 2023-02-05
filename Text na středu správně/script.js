@@ -3,7 +3,7 @@
 
         /* Scroll to sections */
         $(".jq--about-towers-scroll").click(function () {
-            $("html, body").animate({ scrollTop: $(".jq--about-towers").offset().top }, 1000);
+            $("html, body").animate({ scrollTop: $(".jq--about-towers").offset().top }, 800);
         });
 
         $(".jq--our-towers-scroll").click(function () {
@@ -21,5 +21,8 @@
         $(".jq--form-scroll").click(function () {
             $("html, body").animate({ scrollTop: $(".jq--form").offset().top }, 1000);
         });
+
+
+        
     });
 })(jQuery);
